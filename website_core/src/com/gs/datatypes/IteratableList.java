@@ -10,6 +10,7 @@ public class IteratableList<T>  implements Iterator<T>, Iterable<T> {
 	
 	// Iterator implementation:
 	// These methods all delegate control to the contained Iterator, m_oIterator:
+	//this is a change
 	public boolean hasNext() {
 		return m_oIterator.hasNext();
 	}
