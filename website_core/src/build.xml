@@ -1,0 +1,89 @@
+<project basedir="." default="deployAll" name="websitecore">
+
+	<!-- set global properties for this build -->
+	<import file="../../build/buildImports.xml" />
+
+	<property name="libDest" value="${rootSourceDir}\website_classpath"/>
+	<property name="sourceDir" value="${rootSourceDir}\website_core\src"/>
+	<property name="buildDir" value="${rootSourceDir}\website_core\classes"/>
+	<property name="deployDir" value="${rootSourceDir}\..\deploy"/>
+
+	<!-- start classpath -->
+	<path id="local.classpath">
+		<fileset dir="${libDest}">
+			<include name="*.jar"/>
+		</fileset>
+	</path>
+	<property name="classpath" refid="local.classpath"/>
+
+	<target name="buildAll" depends="clean, jarWebsiteCore" >
+		<echo message="Paths:"/>
+		<echo message="classpath:${classpath}"/>
+		<echo message="sourceDir:${sourceDir}"/>
+	</target>
+
+	<target name="deploy" depends="jarWebsiteCore">
+		<echo>
+			deploying jars from ${libDest}
+		</echo>
+		<copy todir="${deployDir}/website/WEB-INF/lib">
+			<fileset dir="${libDest}">
+ 				<include name="*.jar"/>
+ 				<exclude name="servlet.jar"/>
+ 				<exclude name="servlet-api.jar"/>
+			</fileset>
+		</copy>
+	</target>
+	<!--
+	<target name="deployExternalWebs" depends="jarWebsiteCore">
+		<echo>
+			deploying jars from ${libDest}
+		</echo>
+		<copy todir="${deployDir}/agentbooking/WEB-INF/lib">
+			<fileset dir="${libDest}">
+ 				<include name="*.jar"/>
+			</fileset>
+		</copy>
+		<copy todir="${deployDir}/amxcruisepartner/WEB-INF/lib">
+			<fileset dir="${libDest}">
+ 				<include name="*.jar"/>
+			</fileset>
+		</copy>
+		<copy todir="${deployDir}/mycruisepartner/WEB-INF/lib">
+			<fileset dir="${libDest}">
+ 				<include name="*.jar"/>
+			</fileset>
+		</copy>
+	</target>
+	 -->
+	<target name="deployAll" depends="deploy">
+		<echo message="deployDir:${deployDir}"/>
+		<copy todir="${ovs.libs}">
+			<fileset dir="${libDest}">
+				<include name="*.jar"/>
+			</fileset>
+		</copy>
+	</target>
+
+	<target name="clean">
+		<delete failonerror="false">
+			<fileset dir="${buildDir}">
+				<include name="**/*.class"/>				
+			</fileset>
+		</delete>		
+	</target>
+
+	<target name="buildWebsiteCore">
+		<mkdir dir="${buildDir}"/>
+		<javac classpath="${classpath}" destdir="${buildDir}" srcdir="${sourceDir}" debug="${debug}" debuglevel="${debugLevel}">
+			<include name="**/*.java"/>
+		</javac>
+	</target>
+	
+	<target name="jarWebsiteCore" depends="buildWebsiteCore">
+		<jar basedir="${buildDir}" jarfile="${libDest}/websiteCore.jar">
+			<include name="**/*.class"/>
+		</jar>
+	</target>
+
+</project>

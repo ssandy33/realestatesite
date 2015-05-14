@@ -1,0 +1,134 @@
+#header-menu {
+	position:relative;
+	margin-left: 200px;
+	margin-top: 25px;
+	padding:0px 0px 0px 35px;
+	font-size:1.0em;
+}
+
+#header-menu ul {
+	font-family: Georgia;   
+	font-size: 14px;   
+	margin: 0;   
+	padding: 0;   
+	list-style: none;
+}
+
+#header-menu ul li {
+	display: block;
+	position: relative;
+	float: left;	
+}
+
+#header-menu li ul {
+	display: none;
+	z-index:9999;
+}
+
+#header-menu ul li a {
+	display: block;   
+	text-decoration: none;   
+	color: #ffffff;   
+	/* border-top: 1px solid #ffffff; */   
+	padding: 0px 15px 5px 15px;   
+	background: #333333;   
+	margin-left: 1px;   
+	white-space: nowrap;
+}
+
+#header-menu ul li a:hover {
+	background: #333333;
+}
+
+#header-menu a:hover {
+	color:#b3dcfb;
+	text-decoration:underline;
+}
+
+#header-menu li:hover ul {
+	display: block;
+	position: absolute;
+}
+
+#header-menu li:hover li {
+	float: none;
+	font-size: 11px;
+}
+
+#header-menu li:hover a {
+	background: #333333;
+}
+
+#header-menu li:hover li a:hover { 
+	background: #333333;
+}
+
+.social-network-font {
+	font-family: socialMediaFont;
+}
+
+#social-networks {
+	position: relative;
+	margin-left: 780px;
+	padding-top: 10px;
+}
+
+#social-networks li { 
+	display:inline-block; 
+	float:left;
+	padding-right: 10px;
+	margin-top: -10px;
+}
+
+.social-network-items {
+	margin:0 auto;
+	padding:0px 0px 3px 0px;
+	font-size: 0.96em;
+	color:#FFFFFF;
+	font-weight: bold;
+}
+
+.social-network-items a:visited {
+	color:#CCCCCC;
+	text-decoration:none;
+	font-size:2.75em;
+}
+
+.social-network-items a:link {
+	color:#CCCCCC;
+	text-decoration:none;
+	font-size:2.75em;
+}
+.social-network-items a:hover {
+	color:#b3dcfb;
+	font-size:2.75em;
+}
+
+#header-upper {
+	height:20px;
+	background-color:#000000;
+}
+
+#header-lower {
+	height:135px;
+	background-color:#333333;
+	box-shadow: 0px 5px 2px #888888;
+}
+
+#hero-image {
+	position:relative;
+	margin-left:60px;
+	float: left;
+}
+
+#header-name {
+	/* position: relative; */
+	/* margin-bottom: 25px; */
+	padding-left: 130px;
+	/* font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif; */
+	font-family: "Big Caslon", "Book Antiqua", "Palatino Linotype", Georgia, serif;
+	font-size: 58px;
+	/* font-weight: bold; */
+	color: #ffffff;
+	float: left;
+}

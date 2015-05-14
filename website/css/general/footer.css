@@ -1,0 +1,26 @@
+#footer {
+	clear: both;
+	padding-top: 10px;
+}
+
+#footer-lower {
+	height:10px;
+	background-color:#000000;
+}
+
+#footer-upper {
+	height:30px;
+	background-color:#000000;
+}
+
+#address {
+	font-size:0.70em;
+	color:#CCCCCC;
+	padding-top:10px;
+	padding-left:10px;
+}
+
+#required-images-items {
+	margin-top: -20px;
+	padding-left: 850px;
+}

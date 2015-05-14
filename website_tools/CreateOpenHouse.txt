@@ -1,0 +1,10 @@
+Get MLS #
+Get URL from FlexMLS
+Get XLS from FlexMLS
+Inport Into Open House Table
+	file, link, date
+Verify Page Looks Correct
+Add Redirect URL
+Add Campaign
+Create Bitly URL
+	/campaign?guid=Xcid=X

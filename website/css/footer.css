@@ -1,0 +1,29 @@
+#footer {
+	position:realative;
+	bottom:0;
+	width:100%;
+	height:40px;			/* Height of the footer */
+	background:#6cf;
+}
+
+#footer-lower {
+	height:10px;
+	background-color:#000000;
+}
+
+#footer-upper {
+	height:30px;
+	background-color:#000000;
+}
+
+#address {
+	font-size:0.70em;
+	color:#CCCCCC;
+	padding-top:10px;
+	padding-left:10px;
+}
+
+#required-images-items {
+	margin-top: -20px;
+	padding-left: 850px;
+}

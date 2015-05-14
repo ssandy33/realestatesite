@@ -1,0 +1,24 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* http://www.webtoolkit.info/css-clearfix.html */
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+ 
+.clearfix, .clearfixer {
+	display: inline-block;
+}
+ 
+html[xmlns] .clearfix, html[xmlns] .clearfixer {
+	display: block;
+}
+ 
+* html .clearfix {
+	height: 1%;
+}

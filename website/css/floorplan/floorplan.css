@@ -1,0 +1,101 @@
+#agentprofile-widget {
+	background: transparent;
+	padding-bottom: 50px;
+	text-align: center;
+	font-size: 1.0em;
+}
+
+#agentprofile-widget h3 {
+	font-size: 1.0em;
+	width: 200px;
+	padding: 0 10px;
+	background: #666666;
+	height: 32px;
+	line-height: 32px;
+	color: #FFFFFF;
+	text-transform: uppercase;
+}
+
+#site_nav li {
+	margin: 0;
+	padding: 0;
+}
+
+#site_nav a {
+	display: block; background: #666666;
+	color: #FFFFFF;
+	padding: 10px 20px;
+	border: 1px solid;
+	text-decoration: none;
+}
+
+#site_nav a:hover {
+	color:#b3dcfb;
+}
+
+ul#site_nav {
+	list-style-type: none;
+	margin-left: 10px;
+	padding: 0;
+	font-size: 0.9em;
+	color: #666666;
+	background: #666666;
+	width: 202px;
+	float: left;
+	text-align: left;
+}
+
+table {
+  color: #333;
+  font-family: sans-serif;
+  font-size: .9em;
+  font-weight: 300;
+  text-align: left;
+  line-height: 40px;
+  border-spacing: 0;
+  border: 1px solid #666666;
+  width: 600px;
+  margin: 16px auto;
+}
+
+thead tr:first-child {
+  background: #666666;
+  color: #fff;
+  border: none;
+}
+
+th {font-weight: bold;}
+th:first-child, td:first-child {padding: 0 15px 0 20px;}
+
+thead tr:last-child th {border-bottom: 2px solid #EEE9DF;}
+
+tbody tr:hover {background-color: #f0fbff;}
+tbody tr:last-child td {border: none;}
+tbody td {border-bottom: 1px solid #ddd;}
+
+td:last-child {
+  text-align: right;
+  padding-right: 10px;
+}
+
+.button {
+  color: #428bca;
+  text-align: center;
+  text-decoration: none;
+  padding-left: 15px;
+}
+
+.button:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.message {
+	width: 600px;
+	line-height: 1.1;
+	padding-top: 10px;
+	margin: 0 auto;
+	font-weight: bold;
+	font: 109%/185% Arial, Verdana, sans-serif;
+	color: #333;
+}

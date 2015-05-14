@@ -1,0 +1,159 @@
+#featured_listings {
+	margin-left: 65px;
+	margin-top: 10px;
+	padding-bottom: 55px;
+}
+
+#listing {
+	border: 1px solid #CCCCCC;
+	box-shadow: 5px 5px 5px #888888;
+	width: 900px;
+	height: 200px;
+	margin-top: 10px;
+}
+
+.thumblisting {
+	padding: 10px;
+	height: 165px;
+	width: 250px;
+}
+
+#listingarea {
+	position: absolute;
+	margin-top: -179px;
+	margin-left: 290px;
+	font-weight:bold;
+	font-size: 18px;
+	font-family: Georgia;
+}
+
+#listingprice {
+	position: absolute;
+	margin-top: -179px;
+	margin-left: 600px;
+}
+
+#listingaddressvalue{
+	position: absolute;
+	margin-top: -130px;
+	margin-left: 290px;
+	
+}
+
+#listingstatuslabel {
+	position: absolute;
+	margin-top: -90px;
+	margin-left: 290px;
+	
+}
+
+#listingstatusvalue {
+	position: absolute;
+	margin-top: -90px;
+	margin-left: 345px;
+	color: #b0aeb0;
+}
+
+#listingtypelabel {
+	position: absolute;
+	margin-top: -90px;
+	margin-left: 560px;
+}
+
+#listingtypevalue {
+	position: absolute;
+	margin-top: -90px;
+	margin-left: 610px;
+	color: #b0aeb0;
+}
+
+#listingbedlabel {
+	position: absolute;
+	margin-top: -55px;
+	margin-left: 290px;
+}
+
+#listingbedvalue {
+	position: absolute;
+	margin-top: -55px;
+	margin-left: 370px;
+	color: #b0aeb0;
+}
+
+#listingbathlabel {
+	position: absolute;
+	margin-top: -55px;
+	margin-left: 420px;
+}
+
+#listingbathvalue {
+	position: absolute;
+	margin-top: -55px;
+	margin-left: 505px;
+	color: #b0aeb0;
+}
+
+#listingsqftlabel {
+	position: absolute;
+	margin-top: -90px;
+	margin-left: 420px;
+}
+
+#listingsqftvalue {
+	position: absolute;
+	margin-top: -90px;
+	margin-left: 470px;
+	color: #b0aeb0;
+}
+
+#listingyearlabel {
+	position: absolute;
+	margin-top: -55px;
+	margin-left: 560px;
+}
+
+#listingyearvalue {
+	position: absolute;
+	margin-top: -55px;
+	margin-left: 640px;
+	color: #b0aeb0;
+}
+
+#listinghr {
+  	position: relative;
+  	top: -155px;   
+  	left: 40px;   
+  	display: block;
+  	width: 300px;
+}
+
+#listingcalltoaction {
+	position: relative;
+	border-left: 1px solid #CCCCCC;
+	height: 145px;
+	width: 159px;
+	left: 718px;
+	top: -179px;
+}
+
+#appointmentlisting {
+	position: absolute;
+	top: 40px;
+	left: 66px;
+}
+
+#informationlisting {
+	position: absolute;
+	top: 5px;
+	left: 65px;
+}
+
+#listingview {
+	position: absolute;
+    top: 120px;
+    left: 20px;
+    font-family: Papyrus;
+    font-size: 16px;
+    color: #0066FF;
+    text-decoration:none;
+}

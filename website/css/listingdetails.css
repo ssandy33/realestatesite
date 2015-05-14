@@ -1,0 +1,80 @@
+#images {
+	float: right;
+}
+
+#listing_price {
+	font-weight: bold;
+	margin-left: 400px;
+    margin-top: -36px;
+}
+
+#listing_address {
+	font-weight: bold;
+	text-align: left;
+	margin-top: 5px;
+	margin-left: 25px;
+}
+
+#listingview {
+	margin-left: 25px;
+}
+
+#informationlisting {
+	margin-left: 20px;
+}
+
+#appointmentlisting {
+	margin-left: 25px;
+}
+
+#address_price_details {
+	border: 1px solid #CCCCCC;
+	box-shadow: 5px 5px 5px #888888;
+	width: 525px;
+	height: 93px;
+	margin-top: 35px;
+}
+
+#interior_details {
+	border: 1px solid #CCCCCC;
+	box-shadow: 5px 5px 5px #888888;
+	width: 450px;
+	height: 155px;
+	margin-top: 3px;
+}
+
+#listing_details_header {
+	font-weight: bold;
+	text-align: center;
+	margin-top: 1px;
+}
+
+#lising_remarks {
+	border: 1px solid #CCCCCC;
+	box-shadow: 5px 5px 5px #888888;
+	width: 450px;
+	height: 365px;
+	margin-top: 15px;
+}
+
+#listing_remarks_header {
+	font-weight: bold;
+	text-align: center;
+	margin-top: 1px;
+}
+
+#listing_remarks_detail {
+	margin-left: 10px;
+	margin-top: -15px;
+}
+
+#listing_details_left {
+	text-align: left;
+	margin-top: -15px;
+	margin-left: 25px;
+}
+
+#listing_details_right {
+	margin-left: 250px;
+    margin-top: -36px;
+}

@@ -1,0 +1,3 @@
+<div class="header"><%= floorPlanDetailPage.getName() %> - <%= floorPlanDetailPage.getCommunityName() %> - Bedrooms: <%= floorPlanDetailPage.getBedRooms() %> - Bathrooms: <%= floorPlanDetailPage.getBathRooms() %></div>
+<div id="image"><img id="informationlisting" src="/images/floorplans/<%= floorPlanDetailPage.getCommunityAbbreviation() %>/<%= floorPlanDetailPage.getImageName() %>" border="0"/></div>
+<div class="call_to_action">If you are in the market to buy or sell, contact Gabby Sandy today!</div>

@@ -1,0 +1,34 @@
+body { 
+	background-color: #F1F1F1;
+}
+
+@font-face {
+	font-family: socialMediaFont;
+	src: url('/fonts/MonoSocialIconsFont-1.10.ttf'),
+		url('/fonts/MonoSocialIconsFont-1.10.otf'); /* IE9 */
+}
+
+#wrapper {
+	width: 960px;
+	margin: 0 auto;
+	background-color: white;
+}
+
+#sidebar {
+	width: 220px;
+	float: left;
+	padding-top: 10px;
+}
+
+#right-column {
+	width: 740px;
+	float: right;
+	padding-top: 10px;
+}
+
+#openhousecontainer {
+	height: 20px;
+	text-align: center;
+	padding-top: 10px;
+	font-family: Tahoma, Geneva, sans-serif;
+}

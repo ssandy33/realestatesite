@@ -1,0 +1,29 @@
+@charset "utf-8";
+
+/* CSS Document */
+/* Navigation */
+div#footer { height:145px; width:100%; background:transparent url(images/global/navigation-opaque-footer.png) repeat-x top left;  }
+#footer .navigation { font-family:Georgia, "Times New Roman", Times, serif; }
+div#footer ul { padding:0; height:30px; width:960px; }
+div#footer li { display:inline-block; float:left; font-size:13px; line-height:12px; color:#1c1919; padding:8px 0 0 17px; letter-spacing:0; }
+div#footer a { font-size:11px; line-height:10px; margin:0; outline:0; color:#582325; text-decoration:none; text-transform:uppercase; letter-spacing:0; }
+div#footer a:hover { text-decoration:underline; }
+div#footer li:first-child { padding-left:0px; }
+
+/* Information */
+div#footer { position:relative; overflow:hidden; font-family:Georgia, "Times New Roman", Times, serif; }
+div#footer div.solid-tan { width:100%; background-color:#8C7968; height:125px; }
+div#footer div.column { float:left; }
+div#footer p { color:#D9D5C5; font-size:12px; line-height:18px; margin:18px 0 0; text-transform:uppercase;letter-spacing:1px;}
+div#footer #col-1 { padding-right:15px; }
+div#footer #col-2 { padding:0 15px; background:#8C7968 url(images/global/border-dotted-seperator.jpg) no-repeat; }
+
+.logos {
+	margin-top: 10px;
+	margin-left:33px;	
+	width:230px;
+	/*border:1px solid #f00;*/
+}
+.logos img {
+	margin-right: 20px;
+}

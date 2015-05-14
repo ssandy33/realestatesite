@@ -1,0 +1,256 @@
+<web-app xmlns="http://java.sun.com/xml/ns/j2ee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd"
+    version="2.4">
+
+	<servlet>
+    	<servlet-name>campaign</servlet-name>
+    	<servlet-class>com.gs.servlets.procedural.CampaignRecordServlet</servlet-class>
+    </servlet>
+   	<servlet-mapping>
+    	<servlet-name>campaign</servlet-name>
+        <url-pattern>/campaign</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+    	<servlet-name>openhouse</servlet-name>
+    	<servlet-class>com.gs.servlets.OpenHousePageServlet</servlet-class>
+    </servlet>
+   	<servlet-mapping>
+    	<servlet-name>openhouse</servlet-name>
+        <url-pattern>/openhouse</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+    	<servlet-name>recentactivity</servlet-name>
+    	<servlet-class>com.gs.servlets.RecentActivityPageServlet</servlet-class>
+    </servlet>
+   	<servlet-mapping>
+    	<servlet-name>recentactivity</servlet-name>
+        <url-pattern>/recentactivity</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+    	<servlet-name>floorplan</servlet-name>
+    	<servlet-class>com.gs.servlets.FloorPlanPageServlet</servlet-class>
+    </servlet>
+   	<servlet-mapping>
+    	<servlet-name>floorplan</servlet-name>
+        <url-pattern>/floorplan</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+    	<servlet-name>viewemail</servlet-name>
+    	<servlet-class>com.gs.servlets.ViewEmailPageServlet</servlet-class>
+    </servlet>
+   	<servlet-mapping>
+    	<servlet-name>viewemail</servlet-name>
+        <url-pattern>/viewemail</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+    	<servlet-name>Unsubscribe</servlet-name>
+    	<servlet-class>com.gs.servlets.UnsubscribePageServlet</servlet-class>
+    </servlet>
+   	<servlet-mapping>
+    	<servlet-name>Unsubscribe</servlet-name>
+        <url-pattern>/Unsubscribe</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+    	<servlet-name>ThankYou</servlet-name>
+    	<servlet-class>com.gs.servlets.ThankYouPageServlet</servlet-class>
+    </servlet>
+   	<servlet-mapping>
+    	<servlet-name>ThankYou</servlet-name>
+        <url-pattern>/ThankYou</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+    	<servlet-name>AgentReferral</servlet-name>
+    	<servlet-class>com.gs.servlets.AgentReferralPageServlet</servlet-class>
+    </servlet>
+   	<servlet-mapping>
+    	<servlet-name>AgentReferral</servlet-name>
+        <url-pattern>/AgentReferral</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+    	<servlet-name>AgentReferralPost</servlet-name>
+    	<servlet-class>com.gs.servlets.AgentReferralPostServlet</servlet-class>
+    </servlet>
+   	<servlet-mapping>
+    	<servlet-name>AgentReferralPost</servlet-name>
+        <url-pattern>/agentreferralpost</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+    	<servlet-name>Search</servlet-name>
+    	<servlet-class>com.gs.servlets.HomeSearchServlet</servlet-class>
+    </servlet>
+   	<servlet-mapping>
+    	<servlet-name>Search</servlet-name>
+        <url-pattern>/search</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+    	<servlet-name>FeaturedSearch</servlet-name>
+    	<servlet-class>com.gs.servlets.FeaturedSearchServlet</servlet-class>
+    </servlet>
+   	<servlet-mapping>
+    	<servlet-name>FeaturedSearch</servlet-name>
+        <url-pattern>/featured</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+    	<servlet-name>ContactPost</servlet-name>
+    	<servlet-class>com.gs.servlets.ContactPostServlet</servlet-class>
+    </servlet>
+   	<servlet-mapping>
+    	<servlet-name>ContactPost</servlet-name>
+        <url-pattern>/gs/contactpost</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+    	<servlet-name>ContactPage</servlet-name>
+    	<servlet-class>com.gs.servlets.ContactPageServlet</servlet-class>
+    </servlet>
+   	<servlet-mapping>
+    	<servlet-name>ContactPage</servlet-name>
+        <url-pattern>/gs/contact</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+    	<servlet-name>HomePage</servlet-name>
+    	<servlet-class>com.gs.servlets.HomePageServlet</servlet-class>
+    </servlet>
+   	<servlet-mapping>
+    	<servlet-name>HomePage</servlet-name>
+        <url-pattern>/home</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+    	<servlet-name>AboutPage</servlet-name>
+    	<servlet-class>com.gs.servlets.AboutPageServlet</servlet-class>
+    </servlet>
+   	<servlet-mapping>
+    	<servlet-name>AboutPage</servlet-name>
+        <url-pattern>/about</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+    	<servlet-name>TruliaReferer</servlet-name>
+    	<servlet-class>com.gs.servlets.TruliaRefererServlet</servlet-class>
+    </servlet>
+   	<servlet-mapping>
+    	<servlet-name>TruliaReferer</servlet-name>
+        <url-pattern>/trulia</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+    	<servlet-name>ZillowReferer</servlet-name>
+    	<servlet-class>com.gs.servlets.ZillowRefererServlet</servlet-class>
+    </servlet>
+   	<servlet-mapping>
+    	<servlet-name>ZillowReferer</servlet-name>
+        <url-pattern>/zillow</url-pattern>
+	</servlet-mapping>
+	
+<!--	<servlet>
+    	<servlet-name>ListingDetails</servlet-name>
+    	<servlet-class>com.gs.servlets.ListingDetailsPageServlet</servlet-class>
+    </servlet>
+   	<servlet-mapping>
+    	<servlet-name>ListingDetails</servlet-name>
+        <url-pattern>/details</url-pattern>
+	</servlet-mapping> -->
+	
+	<!--  start of new servlets -->
+	
+	<servlet>
+    	<servlet-name>FeaturedListings</servlet-name>
+    	<servlet-class>com.gs.servlets.FeaturedListingsPageServlet</servlet-class>
+    </servlet>
+   	<servlet-mapping>
+    	<servlet-name>FeaturedListings</servlet-name>
+        <url-pattern>/featured</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+    	<servlet-name>ListingDetails</servlet-name>
+    	<servlet-class>com.gs.servlets.ListingDetailsPageServlet</servlet-class>
+    </servlet>
+   	<servlet-mapping>
+    	<servlet-name>ListingDetails</servlet-name>
+        <url-pattern>/listingdetails</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+    	<servlet-name>RequestListingShowing</servlet-name>
+    	<servlet-class>com.gs.servlets.procedural.RequestListingShowingServlet</servlet-class>
+    </servlet>
+   	<servlet-mapping>
+    	<servlet-name>RequestListingShowing</servlet-name>
+        <url-pattern>/requestlistingshowing</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+    	<servlet-name>FloorPlanDetail</servlet-name>
+    	<servlet-class>com.gs.servlets.FloorPlanDetailServlet</servlet-class>
+    </servlet>
+   	<servlet-mapping>
+    	<servlet-name>FloorPlanDetail</servlet-name>
+        <url-pattern>/floorplandetails</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+    	<servlet-name>Admin</servlet-name>
+    	<servlet-class>com.gs.servlets.AdminPageServlet</servlet-class>
+    </servlet>
+   	<servlet-mapping>
+    	<servlet-name>Admin</servlet-name>
+        <url-pattern>/gabbyspage</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+    	<servlet-name>OpenHouse</servlet-name>
+    	<servlet-class>com.gs.servlets.procedural.OpenHouseServlet</servlet-class>
+    </servlet>
+   	<servlet-mapping>
+    	<servlet-name>OpenHouse</servlet-name>
+        <url-pattern>/openhouse</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+    	<servlet-name>HomeOpening</servlet-name>
+    	<servlet-class>com.gs.servlets.ShowOpenHouseServlet</servlet-class>
+    </servlet>
+   	<servlet-mapping>
+    	<servlet-name>HomeOpening</servlet-name>
+        <url-pattern>/homeshowing</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+    	<servlet-name>Reports</servlet-name>
+    	<servlet-class>com.gs.servlets.ReportsPageServlet</servlet-class>
+    </servlet>
+   	<servlet-mapping>
+    	<servlet-name>Reports</servlet-name>
+        <url-pattern>/reports</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+    	<servlet-name>MarketReportSignup</servlet-name>
+    	<servlet-class>com.gs.servlets.MarketReportSignupPageServlet</servlet-class>
+    </servlet>
+   	<servlet-mapping>
+    	<servlet-name>MarketReportSignup</servlet-name>
+        <url-pattern>/marketreportsignup</url-pattern>
+	</servlet-mapping>
+	
+	<welcome-file-list>
+		<welcome-file>index.jsp</welcome-file>
+	</welcome-file-list>
+</web-app>
+
+

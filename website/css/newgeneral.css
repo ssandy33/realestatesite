@@ -1,0 +1,311 @@
+html,
+body {
+   margin:0;
+   padding:0;
+   height:100%;
+}
+
+p.bold {
+	font-weight:bold;
+}
+
+p.white {
+	font-color:#FFFFFF;
+}
+
+.fl {
+	float:left;
+}
+
+.fr {
+    position:fixed;
+    right:100px;
+}
+
+.toppad {
+	padding-top:10px;
+}
+
+a img {
+      border: none;
+}
+
+#three-boxes {
+    width:100%;
+    margin-top:62px;
+}
+
+#body {
+	padding:10px;
+	padding-bottom: 88px;   /* Height of the footer */
+	height:588px;
+}
+
+#container {
+	min-height:100%;
+	position:relative;
+}
+
+#container1 {
+	position: absolute;
+    width: 253px;
+    margin-left: 0px;
+    border-style:solid;
+	border-right: 1px solid #CCCCCC;
+	border-left: none;
+	border-top: none;
+	border-bottom: none;
+}
+
+#container2 {
+	position: absolute;
+    width: 254px;
+    height: 210px;
+    margin-left:256px;
+    border-style:solid;
+	border-right: 2px solid #CCCCCC;
+	border-left: none;
+	border-top: none;
+	border-bottom: none;
+}
+
+#container3 {
+	position: absolute;
+    width: 254px;
+    height: 210px;
+    margin-left:512px;
+    border-style:solid;
+	border-right: 2px solid #CCCCCC;
+	border-left: none;
+	border-top: none;
+	border-bottom: none;
+}
+
+#container4 {
+	position: absolute;
+    width: 254px;
+    margin-left:768px;
+    border-style:solid;
+	border-right: 2px solid #FFFFFF;
+	border-left: none;
+	border-top: none;
+	border-bottom: none;
+}
+
+#show1 {
+	width: 140px;
+    height: 210px;
+}
+
+#show2 {
+	width: 70px;
+	height: 90px;
+}
+
+a { 
+	cursor: pointer; 
+}
+
+.left-right-bottom1 {
+    display:inline-block;
+    float:left;
+	width: 140px;
+    height: 210px;
+    margin-left: 110px;
+    margin-top: 20px;
+    -webkit-box-shadow:10px 0 12px -8px #b3dcfb,0 8px 12px -6px #b3dcfb;
+    -moz-box-shadow:10px 0 12px -8px #b3dcfb,0 8px 12px -6px #b3dcfb;
+    box-shadow:10px 0 12px -8px #b3dcfb,0 8px 12px -6px #b3dcfb;
+}
+
+.left-right-bottom2 {
+    display:inline-block;
+    float:left;
+/* 	width: 162px; */
+/*     height: 210px; */
+    margin-left: 160px;
+    margin-top: 20px;
+    -webkit-box-shadow:10px 0 12px -8px #b3dcfb,0 8px 12px -6px #b3dcfb;
+    -moz-box-shadow:10px 0 12px -8px #b3dcfb,0 8px 12px -6px #b3dcfb;
+    box-shadow:10px 0 12px -8px #b3dcfb,0 8px 12px -6px #b3dcfb;
+}
+
+.left-right-bottom2-img {
+	background: url("/images/global/midyearmarketreporticon.png") no-repeat;
+	width: 162px;
+    height: 210px;
+}
+
+.left-right-bottom2-over {
+	width: 162px;
+    height: 210px;
+    margin-top: -210px;"
+    z-index: -1
+}
+
+/* .left-right-bottom2.hover .left-right-bottom2-img {
+	background: url("/images/global/midyearmarketreporticon.png") no-repeat;
+	width: 162px;
+    height: 210px;
+	background: #000;
+} */
+
+.left-right-bottom3 {
+    display:inline-block;
+    float:left;
+	width: 158px;
+    height: 210px;
+    margin-left: 150px;
+    margin-top: 20px;
+    -webkit-box-shadow:10px 0 12px -8px #b3dcfb,0 8px 12px -6px #b3dcfb;
+    -moz-box-shadow:10px 0 12px -8px #b3dcfb,0 8px 12px -6px #b3dcfb;
+    box-shadow:10px 0 12px -8px #b3dcfb,0 8px 12px -6px #b3dcfb;
+}
+
+.market {
+	position: absolute;
+	font-size: 20px;
+	font-family: Papyrus;
+	padding-left: 90px;
+	top: 30px;
+}
+
+.market3 {
+	position: absolute;
+	font-size: 20px;
+	font-family: Papyrus;
+	padding-left: 110px;
+	top: 17px;
+}
+
+.market4 {
+	position: absolute;
+	font-size: 20px;
+	font-family: Papyrus;
+	padding-left: 110px;
+	top: 30px;
+}
+
+.market-details-1 {
+	font-size: 12px;
+	font-family: Georgia;
+	font-weight:bold;
+	padding-top: 15px;
+	padding-left: 5px;
+	line-height: 150%;
+}
+
+.market-call-to-action-2 {
+	font-size: 12px;
+	font-family: Georgia;
+	font-weight:bold;
+	padding-top: 18px;
+	padding-left: 165px;
+	line-height: 150%;
+}
+
+.market-call-to-action-3 {
+	font-size: 12px;
+	font-family: Georgia;
+	font-weight:bold;
+	padding-top: 24px;
+	padding-left: 156px;
+	line-height: 150%;
+}
+
+.market-call-to-action-4 {
+	font-size: 12px;
+	font-family: Georgia;
+	font-weight:bold;
+	padding-top: 24px;
+	padding-left: 156px;
+	line-height: 150%;
+}
+
+.market-details-2 {
+	font-size: 12px;
+	font-family: Georgia;
+	font-weight:bold;
+	padding-top: 20px;
+	padding-left: 15px;
+	line-height:150%;
+}
+
+.market-details-3 {
+	font-size: 12px;
+	font-family: Georgia;
+	font-weight:bold;
+	padding-top: 10px;
+	padding-left: 15px;
+	line-height:150%;
+}
+
+.market-details-4 {
+	font-size: 12px;
+	font-family: Georgia;
+	font-weight:bold;
+	padding-top: 20px;
+	padding-left: 15px;
+	line-height: 150%;
+}
+
+#contactme {
+	position: absolute;
+	font-size: 12px;
+	font-family: Georgia;
+	font-weight:bold;
+	padding-left: 150px;
+	bottom: 12px;
+}
+
+.market-details-button {
+	padding-left: 50px;
+}
+
+.market-button {
+	-moz-box-shadow:inset 0px 1px 0px 0px #97c4fe;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #97c4fe;
+	box-shadow:inset 0px 1px 0px 0px #97c4fe;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #b3dcfb), color-stop(1, #ffffff) );
+	background:-moz-linear-gradient( center top, #b3dcfb 5%, #ffffff 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#b3dcfb', endColorstr='#ffffff');
+	background-color:#b3dcfb;
+	-webkit-border-top-left-radius:15px;
+	-moz-border-radius-topleft:15px;
+	border-top-left-radius:15px;
+	-webkit-border-top-right-radius:15px;
+	-moz-border-radius-topright:15px;
+	border-top-right-radius:15px;
+	-webkit-border-bottom-right-radius:15px;
+	-moz-border-radius-bottomright:15px;
+	border-bottom-right-radius:15px;
+	-webkit-border-bottom-left-radius:15px;
+	-moz-border-radius-bottomleft:15px;
+	border-bottom-left-radius:15px;
+	text-indent:0;
+	border:1px solid #b3dcfb;
+	display:inline-block;
+	color:#b0aeb0;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	font-style:normal;
+	height:40px;
+	line-height:40px;
+	width:100px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 1px 0px #b3dcfb;
+}
+
+.market-button:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ffffff), color-stop(1, #b3dcfb) );
+	background:-moz-linear-gradient( center top, #ffffff 5%, #b3dcfb 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#b3dcfb');
+	background-color:#ffffff;
+}
+
+.market-button:active {
+	position:relative;
+	top:1px;
+}

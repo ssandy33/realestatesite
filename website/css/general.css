@@ -1,0 +1,22 @@
+html,
+body {
+	margin:0;
+	padding:0;
+	height:100%;
+}
+
+#container {
+	min-height:100%;
+	position:relative;
+}
+
+#body {
+	padding:10px;
+	padding-bottom:40px;	/* Height of the footer */
+}
+		
+@font-face {
+	font-family: socialMediaFont;
+	src: url('/fonts/MonoSocialIconsFont-1.10.ttf'),
+     	 url('/fonts/MonoSocialIconsFont-1.10.otf'); /* IE9 */
+}

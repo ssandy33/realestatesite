@@ -1,0 +1,282 @@
+#sidebar {
+	width: 480px !important;
+}
+
+#right-column {
+	width: 480px;
+}
+
+#interior_details_left {
+	float: left;
+}
+
+#interior_details_right {
+	float: right;
+	width: 290px;
+}
+
+#listing_price {
+	font-weight: bold;
+	margin-left: 390px;
+    margin-top: -36px;
+}
+
+#listing_address {
+	font-weight: bold;
+	text-align: left;
+	margin-top: 5px;
+	margin-left: 5px;
+}
+
+#listingview {
+	margin-left: 25px;
+}
+
+#informationlisting {
+	margin-left: 20px;
+}
+
+#appointmentlisting {
+	margin-left: 25px;
+}
+
+#address_price_details {
+	border: 1px solid #CCCCCC;
+	box-shadow: 5px 5px 5px #888888;
+	width: 470px;
+	height: 93px;
+	margin-top: 32px;
+}
+
+#interior_details {
+	border: 1px solid #CCCCCC;
+	box-shadow: 5px 5px 5px #888888;
+	width: 450px;
+	height: 330px;
+	margin-top: 3px;
+}
+
+#listing_details_header {
+	font-weight: bold;
+	text-align: center;
+	margin-top: 1px;
+	margin-bottom: 0px;
+}
+
+#lising_remarks {
+	border: 1px solid #CCCCCC;
+	box-shadow: 5px 5px 5px #888888;
+	width: 950px;
+	height: 215px;
+	margin-top: 15px;
+}
+
+#listing_remarks_header {
+	font-weight: bold;
+	text-align: center;
+	margin-top: 1px;
+}
+
+#listing_remarks_detail {
+	margin-left: 10px;
+	margin-top: -15px;
+}
+
+#listing_details_label {
+	width:32%; 
+	float:left;
+	margin-left: 3%;
+}
+
+#listing_details_value {
+	width: 55%;
+	float:right;
+}
+
+#listing_details_left {
+	margin-left: 25px;
+}
+
+#listing_details_right {
+	width: 50%; 
+	float:right;
+}
+
+#lising_school {
+	border: 1px solid #CCCCCC;
+	box-shadow: 5px 5px 5px #888888;
+	width: 450px;
+	height: 115px;
+	margin-top: 15px;
+}
+
+#listing_school_header {
+	font-weight: bold;
+	text-align: center;
+	margin-top: 1px;
+}
+
+#listing_room {
+	border: 1px solid #CCCCCC;
+	box-shadow: 5px 5px 5px #888888;
+	width: 450px;
+	height: 300px;
+	margin-top: 15px;
+}
+
+#listing_room_header {
+	font-weight: bold;
+	text-align: center;
+	margin-top: 15px;
+}
+
+#listing_room_label {
+	width:32%; 
+	float:left;
+	margin-left: 3%;
+}
+
+#listing_room_value {
+	width: 55%;
+	float:right;
+}
+
+#exterior_features {
+	border: 1px solid #CCCCCC;
+	box-shadow: 5px 5px 5px #888888;
+	width: 450px;
+	height: 200px;
+	margin-top: 15px;
+}
+
+#exterior_features_header {
+	font-weight: bold;
+	text-align: center;
+	margin-top: 15px;
+}
+
+#exterior_features_label {
+	width:32%; 
+	float:left;
+	margin-left: 3%;
+}
+
+#exterior_features_value {
+	width: 55%;
+	float:right;
+}
+
+#interior_features {
+	border: 1px solid #CCCCCC;
+	box-shadow: 5px 5px 5px #888888;
+	width: 470px;
+	height: 225px;
+	margin-top: 15px;
+}
+
+#interior_features_header {
+	font-weight: bold;
+	text-align: center;
+	margin-top: 1px;
+}
+
+#exterior_features {
+	border: 1px solid #CCCCCC;
+	box-shadow: 5px 5px 5px #888888;
+	width: 450px;
+	height: 330px;
+	margin-top: 15px;
+}
+
+#exterior_features_header {
+	font-weight: bold;
+	text-align: center;
+	margin-top: 1px;
+}
+
+#community_features {
+	border: 1px solid #CCCCCC;
+	box-shadow: 5px 5px 5px #888888;
+	width: 470px;
+	height: 225px;
+	margin-top: 15px;
+}
+
+#community_features_header {
+	font-weight: bold;
+	text-align: center;
+	margin-top: 1px;
+}
+
+#driving_directions {
+	border: 1px solid #CCCCCC;
+	box-shadow: 5px 5px 5px #888888;
+	width: 950px;
+	height: 100px;
+	margin-top: 15px;
+}
+
+#driving_directions_header {
+	font-weight: bold;
+	text-align: center;
+	margin-top: 1px;
+}
+
+#financial_considerations {
+	border: 1px solid #CCCCCC;
+	box-shadow: 5px 5px 5px #888888;
+	width: 950px;
+	height: 165px;
+	margin-top: 25px;
+}
+
+#financial_considerations_header {
+	font-weight: bold;
+	text-align: center;
+	margin-top: 1px;
+}
+
+#label_p {
+	line-height:0.5;
+}
+
+#label_value {
+	line-height:0.5;
+}
+
+#label_room_p {
+	line-height:0.9;
+	height:33px;
+}
+
+#label_room_value {
+	line-height:1.0;
+}
+
+#label_exterior_features_value {
+	line-height:1.0;
+}
+
+
+
+
+
+
+
+
+
+.left {
+  width: 47%;
+  float: left;
+  margin-right: 10px;
+}
+
+.clear {
+  clear:both;
+  height:5px;
+}
+
+.cont {
+  margin: 15px 0;
+  padding-left: 5px;
+}

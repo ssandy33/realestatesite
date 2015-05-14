@@ -1,0 +1,272 @@
+@charset "utf-8";
+/* CSS Document 
+
+.searchContent{
+}
+
+#_dsSearchAgent_Idx_Frame_0_div{
+	position:relative;
+	overflow:hidden;
+}
+
+#_dsSearchAgent_Idx_Frame_0{
+	position:absolute;
+	top:-50px;
+}*/
+
+@import url("pagination.css");
+
+.leftColumn{
+	width:230px;
+	float:left;	
+	}
+	
+.searchColumn
+{
+	width:275px;
+	height:315px;
+	background-color:#d2b77a;	
+	/*padding-bottom:60px;*/
+}
+
+/*#searchColumn{
+	width:230px;
+	height:260px;
+	background-color:#d7d3c8;
+	margin:0px 0px 10px 10px;	
+	}*/
+	
+.headerHolder{
+	height:40px;
+	background-color:#d2b77a;
+	border-bottom:1px solid #fdf7e9;
+	}
+
+.sideHeader{
+	height:38px;
+	font-size:17px;
+	color:#762d30;	
+	padding-left:10px;
+	text-transform:uppercase;	
+	font-family:Georgia, "Times New Roman", Times, serif;
+	width:96%; 
+	background-color:#d2b77a;
+	border-bottom:1px dotted #fdf7e9;
+	line-height:37px;
+	/*border-bottom:1px dotted #fdf7e9;*/
+	/*background:url(../images/global/border-double-dotted-solid.jpg) repeat-x bottom left;*/
+	/*background:#fdf7e9 url(../images/search-border.jpg) repeat-x top left; */
+	}
+	
+.search-area-holder{
+	height:56px;
+	width:275px;
+	background-color:#762d30;
+	}
+	
+.search-wrapper{	
+	margin:5px 0; 
+	float:left;
+	border-top:#fdf7e9 1px solid;
+	border-bottom:#fdf7e9 1px solid; 
+	padding:1px 0;
+	width:100%;
+	}
+
+.quicksearchHeader{
+	height:40px;
+	font-size:17px;
+	border-top:1px dotted #fdf7e9;
+	border-bottom:1px dotted #fdf7e9;
+	padding-left:10px;
+	text-transform:uppercase;
+	line-height:38px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	color:#fdf7e9;	
+	}
+	
+
+#searchList li{	
+	align:center;	
+	}
+
+#searchList li select{
+	height:20px;
+	margin:10px 15px 0px 10px;
+	font-size:12px;
+	color:#474340;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	border:none;
+	background-color:#fdf7e9;
+	}
+
+
+/*#searchList li input{
+	height:18px;
+	width:208px;
+	background-color:#b9b098;
+	color:#571c1f;
+	border:none;
+	margin:10px 15px 0px 10px;
+	font-size:11px;		
+	}*/
+
+
+.searchButton{
+	width:70px;	
+	margin:0px;
+	padding:15px 25px 10px 0px;
+	text-align:center;
+	font-size:12px;
+	float:right;
+	
+}
+
+#search{
+	width:76px;
+	height:31px;	
+	border:none;
+	text-decoration:none;
+	background-image:url(../images/search-btn.jpg);
+	background-repeat:no-repeat;
+}
+
+
+
+.searchBorder{
+	width:275px;	
+	border-bottom:1px dotted #fdf7e9;
+	margin:0px 15px 0px 0px;
+	height:10px;
+}
+
+.select6X{
+	width:245px;
+	}
+
+.select7X{
+	width:100px;
+	}
+
+#searchListingsColumn
+{
+	width:648px;
+	float:right;	
+}
+
+#localSearchColumn
+{
+	margin-top:10px;
+	width:275px;
+}
+
+#localSearchList{
+	background-color:#fdf7e9;
+	color:#762d30;
+	font-size:12px;
+	line-height:14px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	text-transform:uppercase;
+	padding-bottom:15px;	
+	}
+	
+#localSearchList ul{	
+	padding-top:8px;
+	padding-bottom:5px;
+	}
+
+#localSearchList ul li{
+	height:30px;
+	}
+	
+#localSearchList li a{
+	display:block;
+	height:13px;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-left:10px;
+	margin:0px 0px 0px 0px;
+	width:265px;	
+	border-bottom:1px dotted #d2b77a;
+	text-decoration:none;
+	color:#762d30;
+	letter-spacing:0px;
+	}
+	
+#localSearchList li a:hover, #localSearchList li a.active, #localSearchList  li.currentLink a {
+	background-color:#762d30;
+	color:#d2b77a !important;	
+}
+
+#searchLinks{	
+	padding-top:2px;
+	}
+	
+#searchLinks div{	
+	padding-top:2px;
+	}
+	
+#searchLinks a{
+	font-size:13px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	color:#762d30;
+	text-decoration:none;
+	}
+	
+#searchLinks a.active{
+	color:#474340;
+	}
+
+.customSearchHeading{
+	background-color:#8a6563;
+	padding-left:10px;
+	padding-top:5px;
+	color:#d7d3c8;
+	font-size:13px;
+	letter-spacing:0px;
+	}
+
+.info-wrapper { margin:4px 0; float:left; border-top:1px solid #fdf7e9 ;border-bottom:1px solid #fdf7e9; padding:1px 0; width:100%; }
+#ListingSubnav { height:42px; padding:4px 0; border-top:1px dotted #fdf7e9;border-bottom:1px dotted #fdf7e9; margin:1px 0; width:100%; }
+
+/*---- Listings Search / Pagination----*/
+.selectBy{width:80px;}
+.orderBy{margin-right:10px;}
+.sortHolder{width:300px;}
+.sortHolder, .propertyCount, .pagination { padding-left:10px; float:left; display:block; font-size:12px; font-weight:bold; color:#474340; }
+.pagination { float:right; padding-right:10px; padding-left:0; }
+#ListingSubnav select {  border-color:#000; border-width:1px;  border-style:solid;}
+.listCount{font-size:12px;font-weight:bold;}
+
+
+/* ---- Listings ---- */
+.dynamicListing { background-color:#FDF7E9;  cursor:pointer; position:relative;width:610px;height:165px;}
+.dynamicListing:hover { background-color:#e2cd9f; }
+
+.detailsHolder { float:left; display:block; width: 290px;  line-height: 16px; margin:15px 0px 0px 15px;}
+.detailsHolder span { display:block; }
+.availabilityHolder { position:absolute; top:0px; right:0px; float:right; padding:45px 15px 0px 0px; text-align: right;}
+
+.imageHolder { width:198px; height:148px; overflow:hidden; float:left; margin:7px 0px 5px 7px;	}
+.imageHolder img { height:148px; }
+.hozRul { height:3px; width:100%; background-color:#eedebc; }
+.detailsHolder, .availabilityHolder, .detailsHolder a { font-family:Georgia, "Times New Roman", Times, serif; font-size:13px; font-weight:bold; color:#474340; }
+.listingAddress a{ font-size:16px !important; line-height:21px;}
+.listingAddress, .listingNeighborhood { font-size:14px; }
+.availabilityHolder{line-height:20px;font-size:14px;}
+.listingPrice{font-size:16px;color:#762D30;font-weight:bold;}
+.listingStatus{font-size:13px;margin-top:20px;}
+
+#disclaimerText{
+	margin-top:20px;	
+	}
+	
+#disclaimerText p{
+	width:100%;	
+	font-size:10px;
+	color:#d2b77a;
+	}
+
+#disclaimerText a{
+	color:#d2b77a;
+	}	

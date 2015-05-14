@@ -1,0 +1,98 @@
+<project basedir="." default="deployAll" name="website">
+
+	<!-- set global properties for this build -->
+	<import file="../build/buildImports.xml" />
+
+	<property name="deployDir" value="${rootSourceDir}\..\deploy\website"/>
+	<property name="sourceDir" value="${rootSourceDir}\website"/>
+
+	<target name="deployAll" depends="deployFullWebsite">
+		<echo message="deployDir:${deployDir}"/>
+	</target>
+
+	<target name="clean">
+		<delete failonerror="false">
+			<fileset dir="${rootSourceDir}\website\common\lib">
+				<include name="*.jar"/>
+			</fileset>
+		</delete>
+		<delete failonerror="false">
+			<fileset dir="${rootSourceDir}\website\common\classes">
+				<include name="**/*.class"/>
+			</fileset>
+		</delete>
+		<delete dir="${deployDir}"/>
+ 	</target>
+
+	<target name="deployFullWebsite">
+	    <antcall target="deployWebsite">
+      		<param name="websitepath" value="..\website"/>
+    	</antcall>
+		<copy todir="${deployDir}\agentbooking\WEB-INF\lib">
+			<fileset dir="${rootSourceDir}\classpath">
+				<include name="aaa.jar"/>
+				<include name="joda-time-1.6.2.jar"/>
+			</fileset>
+		</copy>
+	</target>
+
+    <target name="deployWebsite">
+		<mkdir dir="${deployDir}"/>
+	    <mkdir dir="${deployDir}\${websitepath}"/>
+    	
+    	<echo message="SourceDir:${sourceDir}"/>
+    	<echo message="deployDir:${deployDir}"/>
+    	<echo message="fileset dir:${sourceDir}"/>
+    	<echo message="root source dir:${rootSourceDir}"/>
+		
+    	<copy todir="${deployDir}">
+			<fileset dir="${sourceDir}">
+				<include name="**/version.txt"/>
+				<include name="**/*.jsp"/>
+				<include name="**/*.htm"/>
+				<include name="**/*.swf"/>
+				<include name="**/*.html"/>
+				<include name="**/*.xsl"/>
+				<include name="**/*.gif"/>
+				<include name="**/*.jpg"/>
+				<include name="**/*.inc"/>
+				<include name="**/*.css"/>
+				<include name="**/*.js"/>
+				<include name="**/*.jar"/>
+				<include name="**/*.inc"/>
+				<include name="**/*.cfg"/>
+				<include name="**/*.lst"/>
+				<exclude name="**/*.psd"/>
+				<include name="**/*.jpeg"/>
+				<include name="**/*.png"/>
+				<include name="**/*.otf"/>
+				<include name="**/*.ttf"/>
+				<include name="**/*.png"/>
+				<include name="**/*.pdf"/>
+				<exclude name="zz*"/>
+				<exclude name="copy of*"/>
+				<exclude name="_last*"/>
+				<exclude name="*.bak"/>
+			</fileset>
+		</copy>
+		<copy todir="${deployDir}\WEB-INF\lib">
+			<fileset dir="${rootSourceDir}\website_classpath">
+				<include name="websiteCore.jar"/>
+				<include name="commons-io-2.2.jar"/>
+				<include name="commons-lang-2.6.jar"/>
+				<include name="activation.jar"/>
+				<include name="mail.jar"/>
+				<include name="joda-time-2.4.jar"/>
+			</fileset>
+		</copy>       
+	
+		<copy todir="${deployDir}\WEB-INF">
+			<fileset dir="${sourceDir}\webConfig">
+				<include name="web.xml"/>
+			</fileset>
+		</copy>
+
+	</target>
+	
+	
+</project>

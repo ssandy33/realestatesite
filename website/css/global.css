@@ -1,0 +1,43 @@
+@charset "utf-8";
+
+/* CSS Document */
+* { margin: 0; }
+html, body { height: 100%;font-family:Georgia, "Times New Roman", Times, serif;}
+
+/* Header */
+h1, h2, h3, h4, h5, h6 { font-family:Georgia, "Times New Roman", Times, serif; font-weight:400; color:#D9D5C5; margin-bottom:12px; }
+h1 { font-size:24px; line-height:25px; color:#762d30; }
+h2 { font-size:17px; line-height:18px; }
+h3 { font-size:16px; line-height:17px; }
+h4 { font-size:15px; line-height:16px; }
+h5 { font-size:12px; line-height:13px; color:#762d30; }
+h6 { font-size:12px; line-height:13px; }
+
+
+/* Links */
+a { text-decoration:none; color:#762d30; }
+a:hover { text-decoration:underline; }
+a img { border:0; }
+
+/* Paragraph and text */
+p { color:#474340; line-height:20px; font-size:13px; margin-bottom:12px; font-family: Georgia, "Times New Roman", Times, serif; }
+
+/* Input */
+input { border:0;font-size:11px;line-height:18px;padding:0 3px;}
+input[type="text"] { background-color:#f7efde;height:18px;padding:0 3px;}
+input[type="submit"] { background-color:#eedebc;color:#762d30;height:18px;padding:0 9px 3px;}
+
+/* Stick Footer */
+.wrapper { margin:0 auto -105px auto; position:relative; min-height: 100%; height: auto !important; height: 100%; }
+.push { height:105px; }
+
+/* Global Styles - Layout */
+@media screen {
+	body { background:#000000 url(../images/global/pattern-diamon-dark.jpg) repeat top left; }
+	div#content { background-color:#eedebc; }
+}
+
+div#content { padding:9px 10px 10px 10px; margin:0 auto!important; }
+#Info-Nav { margin-top:10px; }
+.info-wrapper { margin:4px 0; float:left; border-top:#eedebc 1px solid;border-bottom:#eedebc 1px solid; padding:1px 0; width:100%; }
+#ListingSubnav { height:42px; padding:4px 0; border-top:#eedebc 1px dotted;border-bottom:#eedebc 1px dotted; margin:1px 0; width:100%; }

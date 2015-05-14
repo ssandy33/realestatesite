@@ -1,0 +1,386 @@
+div.content {
+	/* The display of content is enabled using jQuery so that the slideshow content won't display unless javascript is enabled. */
+	display: none;
+	float: left;
+	width: 640px;
+	margin-bottom:10px;
+	position:relative;
+}
+div.content a, div.navigation a {
+	text-decoration: none;
+	color: #777;
+}
+div.content a:focus, div.content a:hover, div.content a:active {
+	text-decoration: underline;
+}
+div.controls {
+	margin-top: 5px;
+	height: 23px;
+	display:none;
+}
+div.controls a {
+	padding: 5px;
+}
+div.ss-controls {
+	float: left;
+}
+div.nav-controls {
+	float: right;
+}
+.concierge-image img{width:65px; float:right;}
+.dynamicConcierge{ height:130px;}
+.concierge-info{width:200px; float:left;}
+.concierge-image{width:65px; float:right;}
+div.slideshow-container {
+	position: relative;
+	clear: both;
+	height: 480px; /* This should be set to be at least the height of the largest image in the slideshow */
+}
+div.loader {
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-image: url('loader.gif');
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 640px;
+	height: 480px; /* This should be set to be at least the height of the largest image in the slideshow */
+}
+div.slideshow {
+
+}
+div.slideshow span.image-wrapper {
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+div.slideshow a.advance-link {
+	display: block;
+	width: 640px;
+	height: 480px; /* This should be set to be at least the height of the largest image in the slideshow */
+	line-height: 480px; /* This should be set to be at least the height of the largest image in the slideshow */
+	text-align: left;
+	overflow:hidden;
+}
+div.slideshow a.advance-link:hover, div.slideshow a.advance-link:active, div.slideshow a.advance-link:visited {
+	text-decoration: none;
+}
+div.slideshow img {
+	vertical-align: middle;
+	border: 1px solid #ccc;
+	
+	
+	min-width:640px;
+	min-height:480px;
+	height:auto;
+	width:auto;
+}
+div.download {
+	float: right;
+	display:none;
+}
+div.caption-container {
+	position: absolute;
+	clear: left;
+	height: 40px;
+	width:100%;
+	bottom:10px;
+	
+	/* For WebKit (Safari, Google Chrome etc) */
+	background: -webkit-gradient(linear, left top, right top, from(rgba(255,255,255,1)), to(rgba(255,255,255,0) ) );
+	/* For Mozilla/Gecko (Firefox etc) */
+	background: -moz-linear-gradient(left top, rgba(255,255,255,1), rgba(255,255,255,0) );
+	/* For Internet Explorer 5.5 - 7 */
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorStr=#FFFFFFFF, endColorStr=#00FFFFFF, GradientType=1);
+	/* For Internet Explorer 8 */
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#FFFFFFFF, endColorstr=#00FFFFFF, GradientType=1)";	
+}
+span.image-caption {
+	display: block;
+	position: absolute;
+	width: 640px;
+	top: 0;
+	left: 0;
+	
+
+	height: 40px;
+}
+div.caption {
+	padding: 12px;
+	background-color:tranparent;
+}
+div.image-title {
+	font-weight: 400;
+	font-size: 16px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	color:#474340; 
+	display:block;
+	text-transform: uppercase;
+}
+div.image-desc {
+	line-height: 1.3em;
+	padding-top: 12px;
+	display:none;
+}
+div.navigation {
+	display:none !important;
+	/* The navigation style is set using jQuery so that the javascript specific styles won't be applied unless javascript is enabled. */
+}
+ul.thumbs {
+	clear: both;
+	margin: 0;
+	padding: 0;
+}
+ul.thumbs li {
+	float: left;
+	padding: 0;
+	margin: 5px 10px 5px 0;
+	list-style: none;
+}
+a.thumb {
+	padding: 2px;
+	display: block;
+	border: 1px solid #ccc;
+}
+ul.thumbs li.selected a.thumb {
+	background: #000;
+}
+a.thumb:focus {
+	outline: none;
+}
+ul.thumbs img {
+	border: none;
+	display: block;
+}
+div.pagination {
+	clear: both;
+}
+div.navigation div.top {
+	margin-bottom: 12px;
+	height: 11px;
+}
+div.navigation div.bottom {
+	margin-top: 12px;
+}
+div.pagination a, div.pagination span.current, div.pagination span.ellipsis {
+	display: block;
+	float: left;
+	margin-right: 2px;
+	padding: 4px 7px 2px 7px;
+	border: 1px solid #ccc;
+}
+div.pagination a:hover {
+	background-color: #eee;
+	text-decoration: none;
+}
+div.pagination span.current {
+	font-weight: bold;
+	background-color: #000;
+	border-color: #000;
+	color: #fff;
+}
+div.pagination span.ellipsis {
+	border: none;
+	padding: 5px 0 3px 2px;
+}
+
+
+/***********Search Styles********/
+#searchColumn{position:relative;margin-bottom:20px;}
+
+#quickSearch-column{background-color:#762d30;height:82px;margin-bottom:10px;	}
+	
+#quickSearch-column .title{	color:#eedebc;	font-family:Georgia, "Times New Roman", Times, serif;padding: 15px 0px 0px 20px;}
+
+#propertySearch{height:205px;background-color:#d2b77a;margin-bottom:20px;}
+
+#propertySearch .title{color:#474340;padding-top:15px;padding-left:20px;}
+
+#propertySearch .searchRow{	width:620px;padding:0px 0px 0px 20px;}
+
+#propertySearch .searchSpacer{margin-bottom:15px;}
+	
+#propertySearch .searchRow div{	float:left;	}
+
+#propertySearch .formBox label{	color:#474340;font-size:12px;line-height:15px;	}
+
+#propertySearch .formBox{margin-right:20px;}
+	
+#buttonHolder{	margin-left:45px;}
+
+#buttonHolder label{font-size:12px;font-weight:bold;color:#474340;line-height:20px;padding-left:10px;}
+	
+#buttonHolder input.button{background-color:#762d30;color:#fdf7e9;	width:60px;	height:30px;font-size:12px;	font-family:Georgia, "Times New Roman", Times, serif;margin-right:20px; cursor:pointer;}
+
+#buttonHolder input.buttonHover{
+border:1px solid #762d30;background-color: #fdf7e9;color:#762d30;width:60px;	height:30px;font-size:12px;	font-family:Georgia, "Times New Roman", Times, serif;margin-right:20px; cursor:pointer;
+} 
+	
+.searchRow .formBox input, .searchRow .formBox select {	background-color:#fdf7e9;	}	
+
+.searchRow .formBox input{ width:400px;}
+
+.searchRow .formBox select{width:155px;}
+
+.quickText{width:600px;background-color:#eedebc;color:#474340;font-size:12px;margin-left:20px;font-family:Georgia, "Times New Roman", Times, serif;}
+
+
+/* ------- RETS Output Styles ---------------------------------------- */
+#RETSOutput {
+	position: absolute;
+	top:65px;
+	left:19px;
+	/*position: relative;
+	top:-253px;
+	left:19px;*/	
+	background-color: #efede9;	
+	width: 607px;
+	z-index: 50;	
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size: 10px;		
+}
+
+#RETSOutput h3 {
+	background-color:#474340;	
+	line-height: 18px;
+	color: #fdf7e9;
+	text-transform: uppercase;
+	font-size: 12px;
+	font-weight:bold;
+	padding-left: 7px;
+	letter-spacing: 0.1px;
+	margin: 0;
+}
+#RETSOutput h3 a {
+	display: block; 
+	float: right;	
+	color: #fdf7e9;
+	text-decoration: none;
+	padding: 0 3px 0 6px;
+}
+
+
+/*#RETSOutput h4 {
+	background-color:#762d30;
+	line-height: 18px;
+	font-size: 12px;
+	text-transform: uppercase;
+	padding-left: 7px;
+	letter-spacing: 0.1px;
+	font-weight:bold;
+	color:#fdf7e9;
+	border:1px solid #0C0;
+	text-decoration: none;
+}
+
+#RETSOutput h4 a {
+	color: #fdf7e9;
+	line-height:18px;
+	text-decoration: none;
+	padding:0;
+	margin:0;
+}*/
+
+
+#RETSOutput .moreLink{
+	background-color:#762d30;
+	line-height: 18px;
+	font-size: 12px;
+	text-transform: uppercase;
+	padding-left: 7px;
+	letter-spacing: 0.1px;
+	font-weight:bold;
+	color:#fdf7e9;	
+}
+
+#RETSOutput .moreLink a{
+color:#fdf7e9;	
+text-decoration:none;
+}
+
+
+#RETSOutput .output a {
+	text-decoration: none;
+}
+
+#RETSOutput .listing {
+	border-bottom: 1px solid #d2b77a;
+	background-color: #fdf7e9;
+	line-height: 14px;
+	letter-spacing: normal;
+}
+
+#RETSOutput .listing  div{
+	float:left;
+	display:inline;
+}
+
+#RETSOutput .listing span {
+	display: block;
+}
+
+#RETSOutput .msg {
+	border-bottom: 1px solid #571c1f;
+	background-color: #d7d3c8;
+	line-height: 14px;
+	font-size:14px;
+	font-weight:bold;
+	letter-spacing: normal;
+	padding: 2px 5px;
+}
+
+#RETSOutput .striped {
+	background-color: #fdf7e9;
+}
+
+#RETSOutput .image-holder {
+	float: left;
+	width: 125px;
+	height: 95px;
+	padding: 7px; 
+	overflow: hidden;
+}
+
+#RETSOutput .image-holder img {
+	height: 95px;
+}
+
+#RETSOutput .text-holder {
+	display: block;
+	padding: 10px 0px 7px 10px;
+	font-size: 14px;
+	line-height:16px;
+	font-weight:bold;
+	color: #474340;
+	
+	width:300px;
+}
+
+#RETSOutput .availability {
+	padding-top:20px;
+	font-size:13px;
+	font-weight: bold;
+}
+
+
+#RETSOutput .availability-holder {
+	display:block;
+	text-align:right;
+	/*margin-left: 180px;*/
+    padding:30px 0px 0px 0px;		
+	width:130px;
+	color:#474340;
+	font-family:Georgia, "Times New Roman", Times, serif;
+}
+
+
+#RETSOutput .price {
+	color: #762d30;
+	font-weight: bold;
+	padding-top:10px;
+}
+
+#RETSOutput .mls {
+	font-size:12px;
+}
