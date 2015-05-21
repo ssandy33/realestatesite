@@ -1,0 +1,15 @@
+.metadata/
+website/.project
+website_classpath/.project
+website_core/.classpath
+website_core/.project
+website_core/.settings/
+website_core/bin/
+website_tools/.classpath
+website_tools/.project
+website_tools/.settings/
+website_tools/bin/
+Servers/
+springwebsite/.classpath
+springwebsite/.project
+springwebsite/.settings/
