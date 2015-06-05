@@ -28,15 +28,15 @@
           <a class="navbar-brand" href="#">Gabby Sandy</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
-          <form class="navbar-form navbar-right">
-            <div class="form-group">
-              <input type="text" placeholder="Email" class="form-control">
-            </div>
-            <div class="form-group">
-              <input type="password" placeholder="Password" class="form-control">
-            </div>
-            <button type="submit" class="btn btn-success">Sign in</button>
-          </form>
+<!--           <form class="navbar-form navbar-right"> -->
+<!--             <div class="form-group"> -->
+<!--               <input type="text" placeholder="Email" class="form-control"> -->
+<!--             </div> -->
+<!--             <div class="form-group"> -->
+<!--               <input type="password" placeholder="Password" class="form-control"> -->
+<!--             </div> -->
+<!--             <button type="submit" class="btn btn-success">Sign in</button> -->
+<!--           </form> -->
         </div><!--/.navbar-collapse -->
       </div>
     </nav>
@@ -46,27 +46,15 @@
     <div class="container">
       <!-- Example row of columns -->
       <div class="row">
-        <div class="col-md-4">
-          <h2>Heading</h2>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-        </div>
-        <div class="col-md-4">
-          <h2>Heading</h2>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-       </div>
-        <div class="col-md-4">
-          <h2>Heading</h2>
-          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-        </div>
+		<%@ include file="/WEB-INF/pages/home/inc_index_panel_one.jsp"%>
+		<%@ include file="/WEB-INF/pages/home/inc_index_panel_two.jsp"%>
+		<%@ include file="/WEB-INF/pages/home/inc_index_panel_three.jsp"%>
       </div>
 
       <hr>
 
       <footer>
-        <p>&copy; Company 2014</p>
+        <p>&copy; Gabby Sandy 2015</p>
       </footer>
     </div> <!-- /container -->
 	
